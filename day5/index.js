@@ -81,6 +81,19 @@ async function run() {
     }
   );
 
+  // the hard way I did originally 👆
+  // the easy way 👇
+  const binaryStrings = {
+    row: sequences[0].row.map((char) => (char === "F" ? 0 : 1)).join(""),
+    col: sequences[0].col.map((char) => (char === "L" ? 0 : 1)).join(""),
+  };
+  const decimal = {
+    row: parseInt(binaryStrings.row, 2),
+    col: parseInt(binaryStrings.col, 2),
+  };
+  console.log(decimal);
+  // end easy way example
+
   const seats = seatPositions.map((position) => {
     return {
       ...position,
