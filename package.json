@@ -1,0 +1,24 @@
+{
+  "name": "aoc2020",
+  "version": "1.0.0",
+  "description": "My Node.js answers for as far as I get in [Advent of Code 2020](https://adventofcode.com/2020/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmkubik/aoc2020.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmkubik/aoc2020/issues"
+  },
+  "homepage": "https://github.com/rmkubik/aoc2020#readme",
+  "dependencies": {
+    "functional-game-utils": "^2.3.1",
+    "ramda": "^0.27.1",
+    "ramda-adjunct": "^2.28.0"
+  }
+}
